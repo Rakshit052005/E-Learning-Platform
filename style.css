@@ -1,0 +1,67 @@
+/* Global Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Header and Navbar Styling */
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Main Content Layouts */
+.course-list, .course-detail, .progress-page {
+  padding: 2rem;
+}
+
+/* Course Cards Styling */
+.course-card {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.course-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Video Section Styling */
+.video-container {
+  margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Progress List Styling */
+ul#progress-list {
+  list-style: none;
+  padding-left: 0;
+}
